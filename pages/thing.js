@@ -1,4 +1,5 @@
 import React from 'react'
+import Router, { withRouter } from 'next/router'
 
 class Index extends React.Component {
     static async getInitialProps({ query }) {
@@ -8,6 +9,14 @@ class Index extends React.Component {
             console.log(query)
         })
         return { query }
+    }
+
+    componentDidMount() {
+        if (this.props.query.replace === 'true') { // http://localhost:3000/at/hehe?par=hey&replace=true
+            Router.replace('/thing', '/what', {
+                shallow: true
+            })
+        }
     }
 
     render() {
