@@ -13,7 +13,7 @@ class Index extends React.Component {
 
     componentDidMount() {
         if (this.props.query.replace === 'true') { // http://localhost:3000/at/hehe?par=hey&replace=true
-            Router.replace('/thing', '/what', {
+            Router.replace('/thing', '/ting/go/bap', { // (this page, replacement, {options})
                 shallow: true
             })
         }
