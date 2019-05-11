@@ -7,4 +7,4 @@ routes.add('index', '/')
 routes.add({
     page: 'thing', // file in pages directory
     pattern: ['/at/:sll', '/at/:sll/:rere'] // what is typed into url (can be list)
-})
+}) // try: http://localhost:3000/at/he/ho?ya=yo
