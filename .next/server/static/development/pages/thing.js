@@ -518,7 +518,7 @@ function (_React$Component) {
       var _this = this;
 
       console.log(this.props.query.sll);
-      console.log(this.props.query.ya);
+      console.log(this.props.query.rere);
 
       var list = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(this.props.query).map(function (ele) {
         return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h3", null, _this.props.query[ele]);

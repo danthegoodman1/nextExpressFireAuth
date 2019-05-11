@@ -21,7 +21,7 @@ class Index extends React.Component {
 
     render() {
         console.log(this.props.query.sll)
-        console.log(this.props.query.ya)
+        console.log(this.props.query.rere)
         let list = Object.keys(this.props.query).map(ele => {
             return <h3>{this.props.query[ele]}</h3>
         })
