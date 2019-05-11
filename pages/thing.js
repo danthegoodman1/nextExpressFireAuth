@@ -13,8 +13,15 @@ class Index extends React.Component {
     render() {
         console.log(this.props.query.sll)
         console.log(this.props.query.ya)
+        let list = Object.keys(this.props.query).map(ele => {
+            return <h3>{this.props.query[ele]}</h3>
+        })
         return (
-            <h1>PAGE</h1>
+            <div>
+                <h1>PAGE</h1>
+                <h2>From the url:</h2>
+                {list}
+            </div>
         )
     }
 }

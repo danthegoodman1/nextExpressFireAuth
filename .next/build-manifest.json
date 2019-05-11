@@ -10,6 +10,10 @@
     "/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/thing": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
