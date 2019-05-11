@@ -7,12 +7,12 @@ class Index extends React.Component {
         Object.keys(query).forEach(ele => {
             console.log(query)
         })
-        const thing = 'heyo'
-        return { thing }
+        return { query }
     }
 
     render() {
-        console.log(this.props.thing)
+        console.log(this.props.query.sll)
+        console.log(this.props.query.ya)
         return (
             <h1>PAGE</h1>
         )

@@ -501,7 +501,8 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(Index, [{
     key: "render",
     value: function render() {
-      console.log(this.props.thing);
+      console.log(this.props.query.sll);
+      console.log(this.props.query.ya);
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", null, "PAGE");
     }
   }], [{
@@ -510,7 +511,7 @@ function (_React$Component) {
       var _getInitialProps = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__["default"])(
       /*#__PURE__*/
       _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
-        var query, thing;
+        var query;
         return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
@@ -523,12 +524,11 @@ function (_React$Component) {
                   console.log(query);
                 });
 
-                thing = 'heyo';
                 return _context.abrupt("return", {
-                  thing: thing
+                  query: query
                 });
 
-              case 5:
+              case 4:
               case "end":
                 return _context.stop();
             }
@@ -558,7 +558,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Dan\Desktop\nextExpressFireAuth\pages\thing.js */"./pages/thing.js");
+module.exports = __webpack_require__(/*! C:\Users\Dan\Desktop\nextExpressAuth\pages\thing.js */"./pages/thing.js");
 
 
 /***/ }),
