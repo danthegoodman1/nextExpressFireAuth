@@ -517,8 +517,11 @@ function (_React$Component) {
     value: function render() {
       var _this = this;
 
-      console.log(this.props.query.sll);
-      console.log(this.props.query.rere);
+      _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(this.props.query).forEach(function (ele) {
+        console.log(ele);
+      });
+
+      if (this.props.query.rere) console.log(this.props.query.rere);
 
       var list = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(this.props.query).map(function (ele) {
         return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h3", null, _this.props.query[ele]);
@@ -542,7 +545,7 @@ function (_React$Component) {
                 console.log(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(query));
 
                 _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(query).forEach(function (ele) {
-                  console.log(query);
+                  console.log(ele);
                 });
 
                 return _context.abrupt("return", {

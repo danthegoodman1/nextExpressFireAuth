@@ -6,7 +6,7 @@ class Index extends React.Component {
         // console.log(req.headers)
         console.log(Object.keys(query))
         Object.keys(query).forEach(ele => {
-            console.log(query)
+            console.log(ele)
         })
         return { query }
     }
@@ -20,7 +20,9 @@ class Index extends React.Component {
     }
 
     render() {
-        console.log(this.props.query.sll)
+        Object.keys(this.props.query).forEach(ele => {
+            console.log(ele)
+        })
         if (this.props.query.rere) console.log(this.props.query.rere)
         let list = Object.keys(this.props.query).map(ele => {
             return <h3>{this.props.query[ele]}</h3>
